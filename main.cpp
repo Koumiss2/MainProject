@@ -1,3 +1,4 @@
+#include "random"
 #include <iostream>
 #include "string"
 using namespace std;
@@ -12,6 +13,7 @@ int Fib(int n){
 }
 
 int main(){
+    int b;
     cout << Fib(5);
     return 0;
 }
