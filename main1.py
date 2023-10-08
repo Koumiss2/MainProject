@@ -1,6 +1,6 @@
 import random
 
-a = random.randint(1, 50)
+a = random.randint(1, 30)
 
 
 def Fib(n):
@@ -10,4 +10,4 @@ def Fib(n):
         return Fib(n - 1) + Fib(n - 2)
 
 
-print(Fib(a))
+print(Fib(a), a)
