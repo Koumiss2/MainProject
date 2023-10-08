@@ -10,4 +10,4 @@ def Fib(n):
         return Fib(n - 1) + Fib(n - 2)
 
 
-print(Fib(a), endl="")
+print(Fib(a))
